@@ -100,9 +100,10 @@
 
 **4.Add needed database**
   * Start `WAMP`
-  * Go to `http://localhost/phpmyadmin/` login with user `root` and let the password empty server choice is `MySQL`
+  * Go to `http://localhost/phpmyadmin/` login with an admin user, server choice is `MySQL`
   * If you are logged in press `New` in the left sidebar
   * In the textbox Database name you type `howeststone` and then press create
+  * select the `howeststone` database
   * Now press `import` in the bar above 
   * Click on the button `Choose file`
   * Add the database `howeststone.sql`which is locatated in `\howeststone\java_backend\src\main\resources\database`
@@ -118,7 +119,7 @@
   * Run the `Server` class
   * If the `Server` class is running open the `index.html` file which is located in `\howeststone\web_frontend`
   * If you see the game you can play!
-**Be Aware** : Be sure `WAMP` and the `Server` class must be running otherwise you don't get the cards   
+**Be Aware** : Be sure `WAMP` and the `Server` class must be running otherwise you won't be able to play.  
  
 ## 3.Code overview
 >Some of the most important classes in our project are:
