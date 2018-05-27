@@ -2,7 +2,7 @@
 ---
 ## Powered by:
 >[![howest](http://letstalk.howest.be/wp-content/uploads/2017/11/howest-colour.png)](https://www.howest.be/nl)
-##### Made by: Jelle Vermeulen , Michiel Vanwymeersch , Robbe Senesael , Xander Denecker
+##### Made by: Michiel Vanwymeersch, Xander Denecker, Robbe Senesael, ( Jelle Vermeulen )
 <img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/33653503_1627645994017910_92484372598358016_n.jpg?_nc_cat=0&oh=fa4bb4d1343fba0c51a44e7b1305d748&oe=5B877C7E" width="600" height="450"/>
 
 >"On the photo from left to right : Robbe, Michiel, Xander and Jelle"
@@ -90,7 +90,7 @@
 **NOTE JDK 1.8 is required!**
 
 **1. Clone this repository:**
-* `git clone https://172.21.22.52/TI/Project-I/2018-Group-34 howeststone`
+* `git clone https://github.com/XanderD99/Howeststone`
 
 **2.Change directory to repository:**
   * `cd howeststone`
