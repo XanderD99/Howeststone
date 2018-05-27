@@ -1,0 +1,19 @@
+.textfield{
+    background: url("../media/mainKnoppenBord.png")  no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70%;
+}
+
+.textfield article{
+    height: 60%;
+    overflow: auto;
+}
+
+.textfield p{
+    line-height: 200%;
+}
+
+.overlay{
+    padding: 0;
+}

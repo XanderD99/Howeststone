@@ -1,0 +1,250 @@
+INSERT INTO cardabilities VALUES ('CS2_231', 'null');
+INSERT INTO cardabilities VALUES ('CS2_188', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_009', 'null');
+INSERT INTO cardabilities VALUES ('EX1_008', 'Divine Shield');
+
+INSERT INTO cardabilities VALUES ('NEW1_017', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_029', 'Deathrattle');
+
+INSERT INTO cardabilities VALUES ('EX1_405', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('CS2_152', 'null');
+INSERT INTO cardabilities VALUES ('EX1_010', 'Stealth');
+
+INSERT INTO cardabilities VALUES ('CS2_169', 'Windfury');
+
+INSERT INTO cardabilities VALUES ('EX1_004', 'null');
+INSERT INTO cardabilities VALUES ('EX1_393', 'null');
+INSERT INTO cardabilities VALUES ('EX1_012', 'Deathrattle');
+INSERT INTO cardabilities VALUES ('EX1_012', 'Spell Damage');
+
+INSERT INTO cardabilities VALUES ('NEW1_018', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_059', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_603', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_162', 'AdjacentBuff');
+INSERT INTO cardabilities VALUES ('EX1_162', 'Aura');
+
+INSERT INTO cardabilities VALUES ('NEW1_023', 'null');
+INSERT INTO cardabilities VALUES ('NEW1_040t', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('EX1_096', 'Deathrattle');
+
+INSERT INTO cardabilities VALUES ('EX1_082', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('NEW1_037', 'null');
+INSERT INTO cardabilities VALUES ('EX1_058', 'Taunt');
+INSERT INTO cardabilities VALUES ('EX1_058', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_049', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_007', 'null');
+INSERT INTO cardabilities VALUES ('EX1_006', 'null');
+INSERT INTO cardabilities VALUES ('EX1_089', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_590', 'Divine Shield');
+INSERT INTO cardabilities VALUES ('EX1_590', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_103', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_102', 'null');
+INSERT INTO cardabilities VALUES ('CS2_117', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_170', 'Poisonous');
+
+INSERT INTO cardabilities VALUES ('EX1_finkle', 'null');
+INSERT INTO cardabilities VALUES ('tt_004', 'null');
+INSERT INTO cardabilities VALUES ('EX1_604', 'null');
+INSERT INTO cardabilities VALUES ('CS2_181', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS2_203', 'Silence');
+INSERT INTO cardabilities VALUES ('CS2_203', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_017', 'Stealth');
+
+INSERT INTO cardabilities VALUES ('EX1_507', 'Aura');
+
+INSERT INTO cardabilities VALUES ('EX1_412', 'Windfury');
+
+INSERT INTO cardabilities VALUES ('EX1_020', 'Divine Shield');
+
+INSERT INTO cardabilities VALUES ('NEW1_027', 'Aura');
+
+INSERT INTO cardabilities VALUES ('EX1_390', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('EX1_021', 'Windfury');
+
+INSERT INTO cardabilities VALUES ('EX1_057', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_584', 'Spell Damage');
+INSERT INTO cardabilities VALUES ('EX1_584', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_046', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_093', 'Taunt');
+INSERT INTO cardabilities VALUES ('EX1_093', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_396', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('EX1_023', 'Divine Shield');
+
+INSERT INTO cardabilities VALUES ('EX1_048', 'Silence');
+INSERT INTO cardabilities VALUES ('EX1_048', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_043', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_097', 'Taunt');
+INSERT INTO cardabilities VALUES ('EX1_097', 'Deathrattle');
+
+INSERT INTO cardabilities VALUES ('EX1_005', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('NEW1_024', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS1_069', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('EX1_558', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS2_221', 'null');
+INSERT INTO cardabilities VALUES ('NEW1_041', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_028', 'Stealth');
+
+INSERT INTO cardabilities VALUES ('EX1_067', 'Charge');
+INSERT INTO cardabilities VALUES ('EX1_067', 'Divine Shield');
+
+INSERT INTO cardabilities VALUES ('EX1_583', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_032', 'Taunt');
+INSERT INTO cardabilities VALUES ('EX1_032', 'Divine Shield');
+
+INSERT INTO cardabilities VALUES ('EX1_002', 'Taunt');
+INSERT INTO cardabilities VALUES ('EX1_002', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_033', 'Windfury');
+
+INSERT INTO cardabilities VALUES ('EX1_249', 'null');
+INSERT INTO cardabilities VALUES ('CS2_161', 'Stealth');
+
+INSERT INTO cardabilities VALUES ('EX1_414', 'Charge');
+
+INSERT INTO cardabilities VALUES ('NEW1_038', 'null');
+INSERT INTO cardabilities VALUES ('EX1_561', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_563', 'Spell Damage');
+
+INSERT INTO cardabilities VALUES ('EX1_560', 'null');
+INSERT INTO cardabilities VALUES ('EX1_586', 'null');
+INSERT INTO cardabilities VALUES ('GAME_002', 'null');
+INSERT INTO cardabilities VALUES ('CS2_boar', 'null');
+INSERT INTO cardabilities VALUES ('CS2_189', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS1_042', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('EX1_508', 'null');
+INSERT INTO cardabilities VALUES ('EX1_025t', 'null');
+INSERT INTO cardabilities VALUES ('CS2_168', 'null');
+INSERT INTO cardabilities VALUES ('EX1_506a', 'null');
+INSERT INTO cardabilities VALUES ('CS2_tk1', 'null');
+INSERT INTO cardabilities VALUES ('CS2_171', 'Charge');
+
+INSERT INTO cardabilities VALUES ('EX1_011', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS2_172', 'null');
+INSERT INTO cardabilities VALUES ('CS2_173', 'Charge');
+
+INSERT INTO cardabilities VALUES ('CS2_121', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('CS2_142', 'Spell Damage');
+
+INSERT INTO cardabilities VALUES ('EX1_015', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS2_120', 'null');
+INSERT INTO cardabilities VALUES ('EX1_582', 'Spell Damage');
+
+INSERT INTO cardabilities VALUES ('CS2_141', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS2_125', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('CS2_118', 'null');
+INSERT INTO cardabilities VALUES ('CS2_122', 'Aura');
+
+INSERT INTO cardabilities VALUES ('EX1_019', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS2_127', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('EX1_084', 'Charge');
+INSERT INTO cardabilities VALUES ('EX1_084', 'Aura');
+
+INSERT INTO cardabilities VALUES ('CS2_124', 'Charge');
+
+INSERT INTO cardabilities VALUES ('CS2_182', 'null');
+INSERT INTO cardabilities VALUES ('CS2_147', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('NEW1_011', 'Charge');
+
+INSERT INTO cardabilities VALUES ('CS2_119', 'null');
+INSERT INTO cardabilities VALUES ('CS2_197', 'Spell Damage');
+
+INSERT INTO cardabilities VALUES ('CS2_179', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('CS2_131', 'Charge');
+
+INSERT INTO cardabilities VALUES ('CS2_187', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('DS1_055', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS2_226', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_399', 'null');
+INSERT INTO cardabilities VALUES ('EX1_593', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS2_150', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('CS2_155', 'Spell Damage');
+
+INSERT INTO cardabilities VALUES ('CS2_200', 'null');
+INSERT INTO cardabilities VALUES ('CS2_162', 'Taunt');
+
+INSERT INTO cardabilities VALUES ('CS2_213', 'Charge');
+
+INSERT INTO cardabilities VALUES ('CS2_201', 'null');
+INSERT INTO cardabilities VALUES ('CS2_222', 'Aura');
+
+INSERT INTO cardabilities VALUES ('CS2_186', 'null');
+INSERT INTO cardabilities VALUES ('GVG_123', 'Spell Damage');
+
+INSERT INTO cardabilities VALUES ('OG_120', 'Deathrattle');
+
+INSERT INTO cardabilities VALUES ('OG_083', 'Battlecry');
+
+INSERT INTO cardabilities VALUES ('EX1_607', 'null');
+INSERT INTO cardabilities VALUES ('EX1_014t', 'null');
+INSERT INTO cardabilities VALUES ('EX1_410', 'AffectedBySpellPower');
+
+INSERT INTO cardabilities VALUES ('EX1_392', 'null');
+INSERT INTO cardabilities VALUES ('CS2_104', 'null');
+INSERT INTO cardabilities VALUES ('EX1_407', 'null');
+INSERT INTO cardabilities VALUES ('EX1_279', 'null');
+INSERT INTO cardabilities VALUES ('GAME_005', 'null');
+INSERT INTO cardabilities VALUES ('EX1_277', 'ImmuneToSpellpower');
+
+INSERT INTO cardabilities VALUES ('EX1_400', 'null');
+INSERT INTO cardabilities VALUES ('CS2_025', 'null');
+INSERT INTO cardabilities VALUES ('CS2_114', 'null');
+INSERT INTO cardabilities VALUES ('CS2_108', 'null');
+INSERT INTO cardabilities VALUES ('CS2_105', 'null');
+INSERT INTO cardabilities VALUES ('CS2_023', 'null');
+INSERT INTO cardabilities VALUES ('EX1_606', 'null');
+INSERT INTO cardabilities VALUES ('CS2_029', 'null');
+INSERT INTO cardabilities VALUES ('CS2_022', 'null');
+INSERT INTO cardabilities VALUES ('CS2_032', 'null');
+INSERT INTO cardabilities VALUES ('EX1_398t', 'null');
+INSERT INTO cardabilities VALUES ('EX1_409t', 'null');
+INSERT INTO cardabilities VALUES ('EX1_411', 'null');
+INSERT INTO cardabilities VALUES ('BCON_026', 'null');
+INSERT INTO cardabilities VALUES ('CS2_106', 'null');
+INSERT INTO cardabilities VALUES ('CS2_112', 'null');

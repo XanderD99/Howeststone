@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Choose deck</title>
+    <link rel="stylesheet" href="../assets/css/reset.css"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/css/screen.css"/>
+    <link rel="stylesheet" href="../assets/css/deckBuilder.css"/>
+</head>
+
+<body class="d-flex flex-column justify-content-around align-items-center" id="deckBuilder">
+<header class="selection d-flex justify-content-around">
+    <span class="overlay">
+        <label for="chooseClass"></label>
+    <select id="chooseClass" class="overlay">
+        <option value="Mage">mage</option>
+        <option value="Hunter">hunter</option>
+    </select>
+    </span>
+    <img src="../images/Mage.png" alt="class" title="class" id="classImg" />
+    <span class="overlay">
+        <label for="chooseDeck"></label>
+    <select id="chooseDeck" class="overlay">
+        <option value="Deck A">Default Deck</option>
+        <option value="Deck B">Deck B</option>
+        <option value="Deck C">Deck C</option>
+    </select>
+    </span>
+</header>
+
+<main class="allCards d-flex flex-column justify-content-between">
+    <article>
+        <h1>available cards</h1>
+        <div class="background d-flex justify-content-center align-items-center">
+            <div class="cards dragscroll d-flex flex-nowrap" id="cardsToChose">
+            </div>
+        </div>
+    </article>
+
+    <article>
+        <h1>your deck</h1>
+        <div class="background d-flex justify-content-center align-items-center">
+            <div class="cards dragscroll d-flex flex-nowrap" id="chosenCards">
+            </div>
+        </div>
+    </article>
+</main>
+
+<footer class="d-flex justify-content-between">
+    <span class="overlay"><input type="submit" value="Back" data-page="mainPage" class="goToOtherPage"/></span>
+    <span class="overlay"><input type="submit" value="Save" id="saveDeck"/></span>
+</footer>
+<script src="../assets/javascript/jquery.js"></script>
+<script src="../assets/javascript/bootstrap.js"></script>
+
+<script src="../assets/javascript/shared.js"></script>
+<script src="../assets/javascript/deckBuilder.js"></script>
+
+
+<!--scroll library-->
+<script src="../assets/javascript/dragscroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+#chooseDeckPage{
+    padding: 5%;
+}
+
+article {
+    text-align: center;
+}
+
+.deck{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.deck{
+    width: 25%;
+}
+
+.deck div{
+    margin-bottom: 2%;
+}
+
+.deck div:last-of-type{
+    margin-bottom: 0;
+}
+
+#decks .overlay{
+    width: 100%;
+}
+
+.disabled .overlay{
+    opacity: 0.4;
+}
+
+.disabled .overlay input:hover{
+    background: none;
+}
+
+.selected{
+    border: sandybrown 2px solid;
+}

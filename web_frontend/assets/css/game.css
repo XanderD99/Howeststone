@@ -1,0 +1,223 @@
+body {
+    background-image: url("../media/game achtergrond.jpg");
+}
+
+main {
+    height: 100%;
+    overflow: hidden;
+}
+
+.endGame, .endTurn {
+    position: fixed;
+    z-index: 100;
+    width: 10%;
+}
+
+.endGame {
+    top: 2%;
+    left: 2%;
+}
+
+.endTurn {
+    top: 50%;
+    bottom: 50%;
+    right: 2%;
+    transform: translate(0%, -50%);
+}
+
+.field {
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.player.field {
+    flex-direction: column-reverse;
+}
+
+.class, .playedCards {
+    height: 48%;
+}
+
+.hero, .cardsHand {
+    width: 50%;
+    height: 40%;
+
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0);
+}
+
+.opponent .cardsHand {
+    bottom: 0;
+    top: -20%;
+}
+
+.hero {
+    bottom: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    z-index: 1;
+}
+
+.opponent .hero {
+    align-items: flex-start;
+    bottom: 0;
+    top: 25%;
+}
+
+.opponent img {
+    transform: rotate(180deg);
+}
+
+.hero img {
+    max-height: 100%;
+    margin: 0 2%;
+}
+
+.cardsHand {
+    bottom: -20%;
+}
+
+.cardsHand {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardsHand img {
+    max-width: 20%;
+    position: relative;
+}
+
+.cardsHand {
+    z-index: 2;
+}
+
+.player .cardsHand img:hover, .player .heroSpell img:hover {
+    -webkit-filter: drop-shadow(2px 2px 0 yellow) drop-shadow(-2px -2px 0 yellow);
+    filter: drop-shadow(2px 2px 0 yellow) drop-shadow(-2px -2px 0 yellow);
+
+    transform: scale(1.1);
+}
+
+.player .cardsHand img:hover {
+    bottom: 35%;
+}
+
+.player .playedCards img[data-fat="1"] {
+    filter: blur(1px);
+}
+
+.playedCards {
+    display: flex;
+    justify-content: space-around;
+    z-index: 0;
+    width: 55%;
+    margin-left: 22.5%;
+}
+
+.playedCards img {
+    height: 100%;
+}
+
+.displaySelectedCard {
+    width: 15%;
+    height: 40%;
+
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 2%;
+    transform: translate(0, -50%);
+}
+
+img[alt="hero"] {
+    height: 80%;
+}
+
+.displaySelectedCard img, .displaySelectedCard div {
+    width: 100%;
+    height: 100%;
+}
+
+.selected {
+    transform: scale(1.1);
+    bottom: 35%;
+}
+
+.player .heroSpell, .player .heroWeapon, .opponent .heroSpell, .opponent .heroWeapon {
+    height: 60%;
+}
+
+.cardsLeft {
+    height: 25%;
+    top: 60%;
+    right: 10px;
+
+    text-align: center;
+}
+
+.cardsLeft img {
+    max-height: 100%;
+}
+
+.cardsLeft p {
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+/*IMAGE BLUR AND IMAGE BORDER FOR ABILITY*/
+/*Divine Shield*/
+.player .playedCards img[data-shield="true"][data-fat="1"] {
+    filter: drop-shadow(2px 2px 0 deepskyblue) drop-shadow(-2px -2px 0 deepskyblue) blur(1px);
+}
+
+.playedCards img[data-shield="true"] {
+    filter: drop-shadow(2px 2px 0 deepskyblue) drop-shadow(-2px -2px 0 deepskyblue);
+}
+
+/*Stealth*/
+.player .playedCards img[data-stealth="true"][data-fat="1"]{
+    filter: drop-shadow(2px 2px 0 #230000) drop-shadow(-2px -2px 0 #230000) blur(1px);
+}
+
+.playedCards img[data-stealth="true"] {
+    filter: drop-shadow(2px 2px 0 #230000) drop-shadow(-2px -2px 0 #230000);
+}
+
+/*Poisonous*/
+.player .playedCards img[data-abilityname="Poisonous"][data-fat="1"]{
+    filter: drop-shadow(2px 2px 0 #66cc1a) drop-shadow(-2px -2px 0 #66cc1a) blur(1px);
+}
+
+.playedCards img[data-abilityname="Poisonous"] {
+    filter: drop-shadow(2px 2px 0 #66cc1a) drop-shadow(-2px -2px 0 #66cc1a);
+}
+
+/*Windfury*/
+.player .playedCards img[data-abilityname="Windfury"][data-fat="1"]{
+    filter: drop-shadow(2px 2px 0 #ffe5c9) drop-shadow(-2px -2px 0 #ffe5c9) blur(1px);
+}
+
+.playedCards img[data-abilityname="Windfury"] {
+    filter: drop-shadow(2px 2px 0 #ffe5c9) drop-shadow(-2px -2px 0 #ffe5c9);
+}
+
+/*Taunt*/
+.player .playedCards img[data-abilityname="Taunt"][data-fat="1"]{
+    filter: drop-shadow(2px 2px 0 #898989) drop-shadow(-2px -2px 0 #898989) blur(1px);
+}
+
+.playedCards img[data-abilityname="Taunt"] {
+    filter: drop-shadow(2px 2px 0 #898989) drop-shadow(-2px -2px 0 #898989);
+}

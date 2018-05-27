@@ -1,0 +1,105 @@
+.selection{
+    width: 70%;
+}
+
+#deckBuilder .allCards{
+    height: 60%;
+    min-width: 70%;
+    max-width: 70%;
+}
+
+#deckBuilder footer{
+    width: 70%;
+}
+
+#deckBuilder h1{
+    background: none;
+    line-height: normal;
+}
+
+.allCards article:first-child{
+    margin-bottom: 2%;
+}
+
+.allCards article {
+    height: 50%;
+}
+
+.cards {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: auto;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+.cards img{
+    max-height: 80%;
+}
+
+.cards img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.selected {
+    -webkit-filter: drop-shadow(2px 2px 0 yellow)
+    drop-shadow(-2px -2px 0 yellow);
+    filter: drop-shadow(2px 2px 0 yellow)
+    drop-shadow(-2px -2px 0 yellow);
+
+    transform:scale(1.1);
+}
+
+.cards img:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+
+    -webkit-filter: drop-shadow(2px 2px 0 yellow)
+    drop-shadow(-2px -2px 0 yellow);
+    filter: drop-shadow(2px 2px 0 yellow)
+    drop-shadow(-2px -2px 0 yellow);
+}
+header:first-of-type :nth-child(1) { order: 2; }
+header:first-of-type :nth-child(2) { order: 1; }
+header:first-of-type :nth-child(3) { order: 3; }
+header:first-of-type :nth-child(4) { order: 4; }
+header:first-of-type :nth-child(5) { order: 5; }
+
+#classImg{
+    position: absolute;
+    top: 0;
+    max-height: 20%;
+}
+
+.background{
+    height: 100%;
+    background-image: url("../media/mainKnoppenBord.png");
+    background-size: 125% 110%;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+}
+
+select.overlay {
+    width: 100%;
+    height: 100%;
+    background: none;
+    color:white;
+    border: none;
+    text-align-last:center;
+}
+select option{
+    background: saddlebrown;
+}
+select:focus{
+    outline: none;
+}

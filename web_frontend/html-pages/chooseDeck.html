@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Choose deck</title>
+    <link rel="stylesheet" href="../assets/css/reset.css"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/css/screen.css"/>
+    <link rel="stylesheet" href="../assets/css/chooseDeck.css"/>
+</head>
+
+<body class="d-flex flex-column justify-content-between" id="chooseDeckPage">
+    <article id="classes">
+        <h1>choose class</h1>
+        <div class="d-flex justify-content-around classes">
+            <span class="overlay">
+                <input type="submit" value="mage"/>
+            </span>
+            <span class="overlay">
+                <input type="submit" value="hunter"/>
+            </span>
+        </div>
+    </article>
+
+    <article id="decks">
+        <h1>Choose your deck</h1>
+        <div class="d-flex justify-content-around decks">
+            <div class="deck disabled" id="mage">
+                <span class="overlay"><input type="submit" value="Deck 1" disabled/></span>
+                <span class="overlay"><input type="submit" value="Deck 2" disabled/></span>
+                <span class="overlay"><input type="submit" value="Deck 3" disabled/></span>
+            </div>
+            <div class="deck disabled" id="hunter">
+                <span class="overlay"><input type="submit" value="Deck 1" disabled/></span>
+                <span class="overlay"><input type="submit" value="Deck 2" disabled/></span>
+                <span class="overlay"><input type="submit" value="Deck 3" disabled/></span>
+            </div>
+        </div>
+    </article>
+<footer class="d-flex justify-content-between">
+    <span class="overlay"><input type="submit" value="Back" data-page="mainPage" class="goToOtherPage"/></span>
+    <span class="overlay"><input type="submit" value="Play" data-page="game" class="createGame"/></span>
+</footer>
+
+<script src="../assets/javascript/jquery.js"></script>
+<script src="../assets/javascript/bootstrap.js"></script>
+
+    <script src="../assets/javascript/chooseDeck.js"></script>
+<script src="../assets/javascript/shared.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,298 @@
+[
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_012.png",
+    "cost": 2,
+    "health": 1,
+    "mechanics": [
+      {
+        "name": "Deathrattle"
+      },
+      {
+        "name": "Spell Damage"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "He's in charge of the Annual Scarlet Monastery Blood Drive!",
+    "playerClass": "Neutral",
+    "elite": true,
+    "cardSet": "Classic",
+    "attack": 1,
+    "cardId": "EX1_012",
+    "name": "Bloodmage Thalnos",
+    "text": "Spell Damage +1\\nDeathrattle: Draw a card."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_162.png",
+    "cost": 2,
+    "health": 2,
+    "mechanics": [
+      {
+        "name": "AdjacentBuff"
+      },
+      {
+        "name": "Aura"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "We are pretty excited about the upcoming release of Dire Wolf Beta, just repost this sign for a chance at a key.",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 2,
+    "cardId": "EX1_162",
+    "name": "Dire Wolf Alpha",
+    "text": "Adjacent minions have +1_Attack."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_058.png",
+    "cost": 2,
+    "health": 3,
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "She carries a shield, but only so she can give it to someone she can stand behind.",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 2,
+    "cardId": "EX1_058",
+    "name": "Sunfury Protector",
+    "text": "Battlecry: Give adjacent minions Taunt."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_590.png",
+    "cost": 3,
+    "health": 3,
+    "mechanics": [
+      {
+        "name": "Divine Shield"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "The Blood Knights get their holy powers from the Sunwell, which you should NOT bathe in.",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 3,
+    "cardId": "EX1_590",
+    "name": "Blood Knight",
+    "text": "Battlecry: All minions lose Divine Shield. Gain +3\/+3 for each Shield lost."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/CS2_203.png",
+    "cost": 3,
+    "health": 1,
+    "mechanics": [
+      {
+        "name": "Silence"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "Their wings are silent but their screech is... whatever the opposite of silent is.",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 2,
+    "cardId": "CS2_203",
+    "name": "Ironbeak Owl",
+    "text": "Battlecry: Silence a_minion."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_584.png",
+    "cost": 4,
+    "health": 5,
+    "mechanics": [
+      {
+        "name": "Spell Damage"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "Sometimes he forgets and just wanders into someone else's game.",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 2,
+    "cardId": "EX1_584",
+    "name": "Ancient Mage",
+    "text": "Battlecry: Give adjacent_minions Spell_Damage +1."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_093.png",
+    "cost": 4,
+    "health": 3,
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "You wouldn\u2019t think that Argus would need this much defending. But it does.",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 2,
+    "cardId": "EX1_093",
+    "name": "Defender of Argus",
+    "text": "Battlecry: Give adjacent minions +1\/+1 and Taunt."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_048.png",
+    "cost": 4,
+    "health": 3,
+    "mechanics": [
+      {
+        "name": "Silence"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "Spellbreakers can rip enchantments from magic-wielders. The process is painless and can be performed on an outpatient basis.",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 4,
+    "cardId": "EX1_048",
+    "name": "Spellbreaker",
+    "text": "Battlecry: Silence a_minion."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_097.png",
+    "cost": 5,
+    "health": 4,
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Deathrattle"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "Abominations enjoy Fresh Meat and long walks on the beach.",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 4,
+    "cardId": "EX1_097",
+    "name": "Abomination",
+    "text": "Taunt. Deathrattle: Deal 2\\ndamage to ALL characters."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_067.png",
+    "cost": 6,
+    "health": 2,
+    "mechanics": [
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Divine Shield"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "The Argent Dawn stands vigilant against the Scourge, as well as people who cut in line at coffee shops.",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 4,
+    "cardId": "EX1_067",
+    "name": "Argent Commander",
+    "text": "Charge\\nDivine Shield"
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_032.png",
+    "cost": 6,
+    "health": 5,
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Divine Shield"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "She doesn\u2019t ACTUALLY walk on the Sun. It's just a name. Don\u2019t worry!",
+    "playerClass": "Neutral",
+    "cardSet": "Classic",
+    "attack": 4,
+    "cardId": "EX1_032",
+    "name": "Sunwalker",
+    "text": "Taunt\\nDivine Shield"
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/EX1_002.png",
+    "cost": 6,
+    "health": 5,
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "He was sent by the Lich King to disrupt the Argent Tournament. We can pretty much mark that a failure.",
+    "playerClass": "Neutral",
+    "elite": true,
+    "cardSet": "Classic",
+    "attack": 4,
+    "cardId": "EX1_002",
+    "name": "The Black Knight",
+    "text": "Battlecry: Destroy an enemy minion with Taunt."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/DS1_070.png",
+    "cost": 4,
+    "health": 3,
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "\"Who let the dogs out?\" he asks. It's rhetorical.",
+    "playerClass": "Hunter",
+    "cardSet": "Basic",
+    "attack": 4,
+    "cardId": "DS1_070",
+    "name": "Houndmaster",
+    "text": "Battlecry: Give a friendly Beast +2\/+2 and Taunt."
+  },
+  {
+    "img": "http:\/\/media.services.zam.com\/v1\/media\/byName\/hs\/cards\/enus\/DS1_178.png",
+    "cost": 5,
+    "health": 5,
+    "mechanics": [
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Aura"
+      }
+    ],
+    "type": "Minion",
+    "flavor": "Tundra rhinos are often mistaken for kodos. Or am I mistaken?",
+    "playerClass": "Hunter",
+    "cardSet": "Basic",
+    "attack": 2,
+    "cardId": "DS1_178",
+    "name": "Tundra Rhino",
+    "text": "Your Beasts have Charge."
+  }
+]

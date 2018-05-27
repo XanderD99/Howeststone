@@ -1,0 +1,217 @@
+body{
+    background-image: url("../media/game achtergrond.jpg");
+}
+
+main {
+    height: 100%;
+    overflow: hidden;
+}
+
+.endGame, .endTurn {
+    position: fixed;
+    z-index: 100;
+    width: 10%;
+}
+
+.endGame {
+    top: 2%;
+    left: 2%;
+}
+
+.endTurn {
+    top: 50%;
+    bottom: 50%;
+    right: 2%;
+    transform: translate(0%,-50%);
+}
+
+.field {
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.player.field {
+    flex-direction: column-reverse;
+}
+
+.class, .playedCards{
+    height: 48%;
+}
+
+.hero, .cardsHand {
+    width: 50%;
+    height: 40%;
+
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,0);
+}
+
+.opponent .cardsHand {
+    bottom: 0;
+    top: -20%;
+}
+
+.hero {
+    bottom: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    z-index: 1;
+}
+
+.opponent .hero {
+    align-items: flex-start;
+    bottom: 0;
+    top: 25%;
+}
+
+.opponent img{
+    transform: rotate(180deg);
+}
+
+.hero img {
+    max-height: 100%;
+    margin: 0 2%;
+}
+
+.cardsHand {
+    bottom:  -20%;
+}
+
+.cardsHand {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardsHand img{
+    max-width: 20%;
+    position: relative;
+}
+
+.cardsHand {
+    z-index: 2;
+}
+
+.player.cardsHand img:hover,  .player .heroSpell img:hover , .player .playedCards #test1:hover{
+    -webkit-filter: drop-shadow(2px 2px 0 yellow)
+    drop-shadow(-2px -2px 0 yellow);
+    filter: drop-shadow(2px 2px 0 yellow)
+    drop-shadow(-2px -2px 0 yellow);
+
+    transform:scale(1.1);
+}
+
+.player .cardsHand img:hover {
+    /*-webkit-transform:scale(1.25); /* Safari and Chrome */
+    /*-moz-transform:scale(1.25); /* Firefox */
+    /*-ms-transform:scale(1.25); /* IE 9 */
+    /*-o-transform:scale(1.25); /* Opera */
+
+    bottom: 35%;
+}
+
+.playedCards {
+    display: flex;
+    justify-content: space-around;
+    z-index: 0;
+    width: 55%;
+    margin-left: 22.5%;
+}
+
+.playedCards img{
+    height: 100%;
+}
+
+.displaySelectedCard {
+    width: 15%;
+    height: 40%;
+
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 2%;
+    transform: translate(0,-50%);
+}
+
+img[alt="hero"] {
+    height: 80%;
+}
+
+.displaySelectedCard img{
+    width: 100%;
+    height: 100%;
+}
+
+.selected {
+    transform: scale(1.1);
+    bottom: 35%;
+}
+
+.player .heroSpell , .player .heroWeapon , .opponent .heroSpell , .opponent .heroWeapon {
+    height: 60%;
+}
+
+.cardsLeft {
+    height: 25%;
+    top: 60%;
+    right: 10px;
+
+    text-align: center;
+}
+
+.cardsLeft img{
+    max-height: 100%;
+}
+
+.cardsLeft p{
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+/*#test1 {
+    position: relative;
+}
+
+#test2 , #test3{
+    position: absolute;
+
+}
+
+#test2{
+    top: 76%;
+}
+
+#test3{
+    right: 4%;
+    top: 78%;
+}
+
+.playingcard , .playingcardattack , .playingcardhealth{
+    max-width: 100%;
+}
+
+
+.playingcard.playingcardattack {
+
+    width: 40px;
+    left: 2em;
+    top: -10.9pc;
+}
+
+.playingcard.playingcardhealth {
+ top: -10.5pc;
+ right: 3px;
+ width: 30px;
+ height: 40px;
+}*/

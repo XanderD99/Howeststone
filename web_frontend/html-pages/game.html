@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HowestStone</title>
+    <link rel="stylesheet" href="../assets/css/reset.css"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/css/screen.css"/>
+    <link rel="stylesheet" href="../assets/css/game.css">
+</head>
+<body>
+
+<span class="overlay endGame"><input id="endGame" data-page="mainPage" type="submit" value="End game"/></span>
+<span class="overlay endTurn"><input type="submit" value="End turn" id="endTurn"/></span>
+
+<main>
+    <div class="opponent field">
+        <div class="opponent">
+            <div class="cardsHand">
+
+            </div>
+            <div class="hero">
+                <div class="health"><p>health <i class="healthLeft"></i>/30</p></div>
+                <div class="heroWeapon">
+                </div>
+                    <img src="#" alt="hero" title="hero" data-cardId="hero"/>
+                <div class="heroSpell">
+                    <img src="#" id="spellEnemy" alt="hero power" title="hero power"/>
+                </div>
+                <div class="mana"><p>mana <i class="manaLeft"></i>/<i class="manaAvailable"></i></p></div>
+            </div>
+        </div>
+        <div class="playedCards">
+
+        </div>
+    </div>
+    <div class="player field">
+        <div>
+            <div class="cardsHand">
+
+            </div>
+            <div class="float-right position-fixed cardsLeft">
+                <img src="../images/cardback.png" alt="back" title="back" class=""/>
+                <p class="position-absolute">cards left: <i class="amountLeft"></i></p>
+            </div>
+            <div class="hero">
+                <div class="health"><p>health <i class="healthLeft"></i>/30</p></div>
+                <div class="heroWeapon">
+                </div>
+                    <img src="#" alt="hero" title="hero"/>
+                <div class="heroSpell">
+                    <img src="#" id="spellPlayer" alt="hero power" data-cardId="heroPower" title="hero power"/>
+                </div>
+                <div class="mana"><p>mana <i class="manaLeft"></i>/<i class="manaAvailable"></i></p></div>
+            </div>
+        </div>
+        <div class="player playedCards">
+
+        </div>
+    </div>
+
+    <div class="displaySelectedCard">
+
+    </div>
+</main>
+<script src="../assets/javascript/jquery.js"></script>
+<script src="../assets/javascript/bootstrap.js"></script>
+<script src="../assets/javascript/shared.js"></script>
+<script src="../assets/javascript/game.js"></script>
+</body>
+</html>

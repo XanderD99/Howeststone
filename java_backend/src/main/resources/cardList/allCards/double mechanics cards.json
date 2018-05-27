@@ -1,0 +1,489 @@
+[
+  {
+    "cardId": "EX1_362",
+    "dbfId": "1022",
+    "name": "Argent Protector",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "text": "Battlecry: Give a friendly minion Divine Shield.",
+    "flavor": "\"I'm not saying you can dodge fireballs. I'm saying with this shield, you won't have to.\"",
+    "artist": "Doug Alexander",
+    "collectible": true,
+    "playerClass": "Paladin",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_362.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_362_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Divine Shield"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_012",
+    "dbfId": "749",
+    "name": "Bloodmage Thalnos",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Legendary",
+    "cost": 2,
+    "attack": 1,
+    "health": 1,
+    "text": "Spell Damage +1\\nDeathrattle: Draw a card.",
+    "flavor": "He's in charge of the Annual Scarlet Monastery Blood Drive!",
+    "artist": "Alex Horley Orlandelli",
+    "collectible": true,
+    "elite": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_012.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_012_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Deathrattle"
+      },
+      {
+        "name": "Spell Damage"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_162",
+    "dbfId": "985",
+    "name": "Dire Wolf Alpha",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "text": "Adjacent minions have +1_Attack.",
+    "flavor": "We are pretty excited about the upcoming release of Dire Wolf Beta, just repost this sign for a chance at a key.",
+    "artist": "John Dickenson",
+    "collectible": true,
+    "race": "Beast",
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_162.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_162_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "AdjacentBuff"
+      },
+      {
+        "name": "Aura"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_058",
+    "dbfId": "891",
+    "name": "Sunfury Protector",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Alliance",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "text": "Battlecry: Give adjacent minions Taunt.",
+    "flavor": "She carries a shield, but only so she can give it to someone she can stand behind.",
+    "artist": "James Ryman",
+    "collectible": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_058.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_058_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_590",
+    "dbfId": "755",
+    "name": "Blood Knight",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Epic",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "text": "Battlecry: All minions lose Divine Shield. Gain +3/+3 for each Shield lost.",
+    "flavor": "The Blood Knights get their holy powers from the Sunwell, which you should NOT bathe in.",
+    "artist": "Trent Kaniuga",
+    "collectible": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_590.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_590_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Divine Shield"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_301",
+    "dbfId": "517",
+    "name": "Felguard",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 3,
+    "health": 5,
+    "text": "Taunt\\nBattlecry: Destroy one of your Mana Crystals.",
+    "flavor": "Yes, he'll fight for you. BUT HE'S NOT GOING TO LIKE IT.",
+    "artist": "John Polidora",
+    "collectible": true,
+    "race": "Demon",
+    "playerClass": "Warlock",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_301.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_301_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "CS2_203",
+    "dbfId": "290",
+    "name": "Ironbeak Owl",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Horde",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 2,
+    "health": 1,
+    "text": "Battlecry: Silence a_minion.",
+    "flavor": "Their wings are silent but their screech is... whatever the opposite of silent is.",
+    "artist": "Trevor Jacobs",
+    "collectible": true,
+    "race": "Beast",
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_203.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_203_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Silence"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_584",
+    "dbfId": "915",
+    "name": "Ancient Mage",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 2,
+    "health": 5,
+    "text": "Battlecry: Give adjacent_minions Spell_Damage +1.",
+    "flavor": "Sometimes he forgets and just wanders into someone else's game.",
+    "artist": "Howard Lyon",
+    "collectible": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_584.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_584_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Spell Damage"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_093",
+    "dbfId": "763",
+    "name": "Defender of Argus",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Alliance",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 2,
+    "health": 3,
+    "text": "Battlecry: Give adjacent minions +1/+1 and Taunt.",
+    "flavor": "You wouldn’t think that Argus would need this much defending. But it does.",
+    "artist": "Alex Horley Orlandelli",
+    "collectible": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_093.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_093_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_048",
+    "dbfId": "754",
+    "name": "Spellbreaker",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Horde",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 4,
+    "health": 3,
+    "text": "Battlecry: Silence a_minion.",
+    "flavor": "Spellbreakers can rip enchantments from magic-wielders. The process is painless and can be performed on an outpatient basis.",
+    "artist": "Matt Cavotta",
+    "collectible": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_048.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_048_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Silence"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_097",
+    "dbfId": "440",
+    "name": "Abomination",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "text": "Taunt. Deathrattle: Deal 2\\ndamage to ALL characters.",
+    "flavor": "Abominations enjoy Fresh Meat and long walks on the beach.",
+    "artist": "Alex Horley Orlandelli",
+    "collectible": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_097.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_097_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Deathrattle"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_067",
+    "dbfId": "281",
+    "name": "Argent Commander",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Rare",
+    "cost": 6,
+    "attack": 4,
+    "health": 2,
+    "text": "Charge\\nDivine Shield",
+    "flavor": "The Argent Dawn stands vigilant against the Scourge, as well as people who cut in line at coffee shops.",
+    "artist": "James Ryman",
+    "collectible": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_067.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_067_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Divine Shield"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_032",
+    "dbfId": "759",
+    "name": "Sunwalker",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "faction": "Alliance",
+    "rarity": "Rare",
+    "cost": 6,
+    "attack": 4,
+    "health": 5,
+    "text": "Taunt\\nDivine Shield",
+    "flavor": "She doesn’t ACTUALLY walk on the Sun. It's just a name. Don’t worry!",
+    "artist": "Andrea Uderzo",
+    "collectible": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_032.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_032_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Divine Shield"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_002",
+    "dbfId": "1656",
+    "name": "The Black Knight",
+    "cardSet": "Classic",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 4,
+    "health": 5,
+    "text": "Battlecry: Destroy an enemy minion with Taunt.",
+    "flavor": "He was sent by the Lich King to disrupt the Argent Tournament. We can pretty much mark that a failure.",
+    "artist": "Alex Horley Orlandelli",
+    "collectible": true,
+    "elite": true,
+    "playerClass": "Neutral",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_002.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_002_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "EX1_084",
+    "dbfId": "1009",
+    "name": "Warsong Commander",
+    "cardSet": "Basic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Free",
+    "cost": 3,
+    "attack": 2,
+    "health": 3,
+    "text": "Your Charge minions have +1 Attack.",
+    "flavor": "The Warsong clan is such drama. It's really not worth it to become a commander.",
+    "artist": "Wei Wang",
+    "collectible": true,
+    "playerClass": "Warrior",
+    "howToGet": "Unlocked at Level 1.",
+    "howToGetGold": "Unlocked at Level 36.",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_084.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_084_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Aura"
+      }
+    ]
+  },
+  {
+    "cardId": "DS1_070",
+    "dbfId": "1003",
+    "name": "Houndmaster",
+    "cardSet": "Basic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Free",
+    "cost": 4,
+    "attack": 4,
+    "health": 3,
+    "text": "Battlecry: Give a friendly Beast +2/+2 and Taunt.",
+    "flavor": "\"Who let the dogs out?\" he asks. It's rhetorical.",
+    "artist": "Dan Brereton",
+    "collectible": true,
+    "playerClass": "Hunter",
+    "howToGet": "Unlocked at Level 1.",
+    "howToGetGold": "Unlocked at Level 28.",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/DS1_070.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/DS1_070_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Battlecry"
+      }
+    ]
+  },
+  {
+    "cardId": "DS1_178",
+    "dbfId": "699",
+    "name": "Tundra Rhino",
+    "cardSet": "Basic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Free",
+    "cost": 5,
+    "attack": 2,
+    "health": 5,
+    "text": "Your Beasts have Charge.",
+    "flavor": "Tundra rhinos are often mistaken for kodos. Or am I mistaken?",
+    "artist": "Lars Grant-West",
+    "collectible": true,
+    "race": "Beast",
+    "playerClass": "Hunter",
+    "howToGet": "Unlocked at Level 8.",
+    "howToGetGold": "Unlocked at Level 43.",
+    "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/DS1_178.png",
+    "imgGold": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/DS1_178_premium.gif",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Charge"
+      },
+      {
+        "name": "Aura"
+      }
+    ]
+  }
+]

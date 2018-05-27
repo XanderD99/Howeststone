@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Menu</title>
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="../assets/css/screen.css" />
+    <link rel="stylesheet" href="../assets/css/main.css"/>
+</head>
+<body id="mainpage" class="d-flex flex-column justify-content-center">
+
+<aside class="logo align-self-center">
+    <img src="../images/logo.png" alt="logo" title="logo" class="logo"/>
+</aside>
+<h1 class="text-center">Welcome <em class="ownName"></em></h1>
+<div class="navigation d-flex">
+    <span class="align-self-center d-flex flex-column justify-content-around align-items-center" style="height: 60%; width: 100%">
+        <span class="overlay"><input type="submit" value="Play game" data-page="chooseDeck" class="goToOtherPage"></span>
+        <span class="overlay"><input type="submit" value="Deckbuilder" data-page="deckBuilder" class="goToOtherPage"></span>
+        <span class="d-flex justify-content-between" style="width: 70%;">
+            <span class="overlay"><input type="submit" value="about the game" data-page="aboutGame" class="goToOtherPage"></span>
+            <span class="overlay"><input type="submit" value="logout" data-page="index" class="goToOtherPage"></span>
+        </span>
+    </span>
+</div>
+
+<script src="../assets/javascript/jquery.js"></script>
+<script src="../assets/javascript/bootstrap.js"></script>
+<script src="../assets/javascript/shared.js"></script>
+<script src="../assets/javascript/mainPage.js"></script>
+
+</body>
+</html>
