@@ -1,6 +1,5 @@
 package cardLogic;
 
-
 import cardLogic.card.Card;
 import cardLogic.card.Minion;
 import org.junit.Test;
@@ -14,9 +13,9 @@ public class CardsTest {
     public void addCard() {
         Cards cards = new Cards();
 
-        Card card = new Minion("1a", 1, "derp", "img", "Mage",  5, 5, null);
-        Card card2 = new Minion("2a", 1, "derp", "img", "Mage", 5, 5, null);
-        Card card3 = new Minion("3a", 1, "derp", "img", "Mage",  5, 5, null);
+        Card card = new Minion("1a", 1, "derp", "img", "Mage", null, 5, 5, null);
+        Card card2 = new Minion("2a", 1, "derp", "img", "Mage", null, 5, 5, null);
+        Card card3 = new Minion("3a", 1, "derp", "img", "Mage", null, 5, 5, null);
         cards.add(card);
         cards.add(card);
         cards.add(card2);
@@ -30,9 +29,9 @@ public class CardsTest {
     public void removeCard() {
         Cards cards = new Cards();
 
-        Card card = new Minion("1a", 1, "derp", "img", "Mage",  5, 5, null);
-        Card card2 = new Minion("2a", 1, "derp", "img", "Mage", 5, 5, null);
-        Card card3 = new Minion("3a", 1, "derp", "img", "Mage",  5, 5, null);
+        Card card = new Minion("1a", 1, "derp", "img", "Mage", null, 5, 5, null);
+        Card card2 = new Minion("2a", 1, "derp", "img", "Mage", null, 5, 5, null);
+        Card card3 = new Minion("3a", 1, "derp", "img", "Mage", null, 5, 5, null);
         cards.add(card);
         cards.add(card);
         cards.add(card2);

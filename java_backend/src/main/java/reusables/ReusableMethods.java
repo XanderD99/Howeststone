@@ -1,39 +1,13 @@
 package reusables;
 
-
 import abilities.*;
-
-
 import abilities.battlecries.*;
 import cardLogic.card.*;
-import game.Player;
-import heroLogic.Hero;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-//Strategy Pattern
 public class ReusableMethods {
-    private Hero hero;
-    private Player player;
-
-    public void dealDmg(int dmg, Card[] targets) {
-        int newDmg = dmg / targets.length;
-        for (Card target : targets) {
-            if (target instanceof Minion) {
-                ((Minion) target).loseHealth(newDmg);
-            } else if (target instanceof Weapon) {
-                ((Weapon) target).loseDurability(((Weapon) target).getDurability(), newDmg);
-            } else {
-
-                hero.loseHealth(newDmg);
-            }
-        }
-    }
-
-    public void drawCard() {
-        player.drawCard();
-    }
 
     public static boolean random(int chance) {
         Random rand = new Random();
@@ -41,7 +15,7 @@ public class ReusableMethods {
         return rand.nextInt(100) < chance;
     }
 
-    public static void pause(int timeInMilliSeconds){
+    public static void pause(int timeInMilliSeconds) {
         try {
             TimeUnit.MILLISECONDS.sleep(timeInMilliSeconds);
         } catch (InterruptedException e) {
@@ -49,12 +23,12 @@ public class ReusableMethods {
         }
     }
 
-    public static void console(String who, String text){
+    public static void console(String who, String text) {
         final String ANSI_RESET = "\u001B[0m";
         final String ANSI_CYAN = "\u001B[36m";
         final String ANSI_RED = "\u001B[31m";
 
-        switch (who){
+        switch (who) {
             case "bot":
                 System.out.println(ANSI_CYAN + "bot says: " + ANSI_RESET + text);
                 break;
@@ -65,16 +39,8 @@ public class ReusableMethods {
         }
     }
 
-    public static void console(String text){
+    public static void console(String text) {
         console("", text);
-    }
-
-    public void forceAbility(Ability ability, Minion target) {
-        //TODO: Force ability on a minion
-    }
-
-    public void destroyMinion(Minion m) {
-        m.loseHealth(m.getHealth());
     }
 
     public Ability switchAbilities(String ability) {

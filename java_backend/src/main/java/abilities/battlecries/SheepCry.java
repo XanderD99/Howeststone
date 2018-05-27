@@ -4,7 +4,7 @@ import abilities.Battlecry;
 import cardLogic.card.Card;
 import game.Player;
 
-public class SheepCry extends Battlecry{
+public class SheepCry extends Battlecry {
     public SheepCry(String name) {
         super(name);
     }

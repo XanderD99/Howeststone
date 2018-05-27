@@ -8,7 +8,7 @@ import reusables.ReusableMethods;
 
 import java.util.Objects;
 
-public abstract class Card{
+public abstract class Card {
     private String id;
     private int manaCost;
     private String name;

@@ -10,11 +10,11 @@ public class Server {
 
     private final int port;
 
-    Server(final int port) {
+    private Server(final int port) {
         this.port = port;
     }
 
-    public void start() {
+    private void start() {
         final Javalin server = Javalin.create()
                 .port(port)
                 .enableCorsForAllOrigins()

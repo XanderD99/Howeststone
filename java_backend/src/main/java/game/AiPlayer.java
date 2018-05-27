@@ -12,13 +12,12 @@ import java.util.ArrayList;
 import java.util.ConcurrentModificationException;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
-@SuppressWarnings("Duplicates")
+
 public class AiPlayer extends Player {
 
     public AiPlayer(String opponent, Cards cards2, Cards specialCards, String heroClass) {
         super(opponent, cards2, specialCards, heroClass);
     }
-
 
     public void play(Player playerOne) {
         talk("New round, let's go!");
@@ -37,7 +36,6 @@ public class AiPlayer extends Player {
         talk("No more plays left, ending my turn.\n");
     }
 
-    //check opponent cards
     private void playCards(Player opponent) {
         try {
             List<Card> tauntsInHand = lookForTaunt(getCardsInHand().getCards());
@@ -103,9 +101,9 @@ public class AiPlayer extends Player {
             if (c.getManaCost() <= getAvailableMana()) {
                 tellWhatCardToPlay(c);
 
-                if (c instanceof Spell && opponent.getCardsOnField().getCards().size() != 0){
+                if (c instanceof Spell && opponent.getCardsOnField().getCards().size() != 0) {
                     placeCard(c, opponent);
-                }else if(c instanceof Minion) {
+                } else if (c instanceof Minion) {
                     placeCard(c, opponent);
                 }
             }

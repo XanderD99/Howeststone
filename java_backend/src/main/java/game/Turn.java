@@ -20,10 +20,10 @@ public class Turn {
         removeFatigue();
     }
 
-    public Turn() {
+    Turn() {
     }
 
-    public Turn(Player player) {
+    Turn(Player player) {
         currentPlayer = player;
 
         increasePlayerMana();

@@ -6,7 +6,7 @@ import game.Player;
 public class DrawCardCry extends Battlecry {
     private int amount;
 
-    public DrawCardCry(int amount ,String name) {
+    public DrawCardCry(int amount, String name) {
         super(name);
         this.amount = amount;
     }

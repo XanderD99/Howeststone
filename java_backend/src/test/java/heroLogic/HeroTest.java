@@ -15,11 +15,4 @@ public class HeroTest {
         hero.gainHealth(5);
         assertEquals(30, hero.getHealth());
     }
-
-    @Test
-    public void heroPower() {
-        Hero hero = new Hero("Mage");
-
-        //assertEquals(HeroPower.FIREBLAST, hero.getHeroPower());
-    }
 }

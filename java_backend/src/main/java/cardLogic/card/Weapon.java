@@ -23,19 +23,6 @@ public class Weapon extends Card {
         return targetHealth - attValue;
     }
 
-    public int gainDurability(int durToGain) {
-        return durability += durToGain;
-    }
-
-    public int gainAttVal(int attToGain) {
-        return attValue += attToGain;
-    }
-
-    public int loseDurability(int durability, int targetAttValue) {
-        int newDurability = durability - targetAttValue;
-        return newDurability;
-    }
-
     @Override
     public String toString() {
         return ", AttValue: " + getAttValue() + ", Durability: " + getDurability();

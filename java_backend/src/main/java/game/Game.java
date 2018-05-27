@@ -29,22 +29,15 @@ public class Game {
     }
 
     public void startGame() {
-        //one player get's chosen to play first, first get's 3 cards
-        //other player get's 3 with additional coin card.
-        //first turn
         startCards(playerOne);
         startCards(playerTwo);
         System.out.println("start game");
 
         turn = new Turn(coinFlip());
 
-        if(turn.getCurrentPlayer().equals(playerTwo)){
+        if (turn.getCurrentPlayer().equals(playerTwo)) {
             AiPlay();
         }
-    }
-
-    private void endGame() {
-
     }
 
     private Player coinFlip() {
@@ -59,14 +52,14 @@ public class Game {
 
     }
 
-    public void AiPlay(){
+    private void AiPlay() {
         playerTwo.play(playerOne);
 
         endTurn(playerTwo.getName());
     }
 
     public void endTurn(String pusher) {
-        if (turn.getCurrentPlayer().getName().equals(pusher)){
+        if (turn.getCurrentPlayer().getName().equals(pusher)) {
             if (turn.getCurrentPlayer().equals(playerOne)) {
                 playerTwo.drawCard();
                 turn.setCurrentPlayer(playerTwo);
@@ -76,8 +69,7 @@ public class Game {
                 playerOne.drawCard();
                 turn.setCurrentPlayer(playerOne);
             }
-        }
-        else{
+        } else {
             System.out.println("its not your turn friend");
         }
     }

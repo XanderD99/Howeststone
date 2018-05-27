@@ -16,7 +16,6 @@ import java.util.HashMap;
 class Routes {
     private SqlResponsesDeckbuilder sqlResponsesDeckbuilder = new SqlResponsesDeckbuilder();
     private SqlResponsesGame gameSql = new SqlResponsesGame();
-    private SqlResponsesGame gameSql2 = new SqlResponsesGame();
     private Game g;
 
     Routes(final Javalin server) {
@@ -62,7 +61,7 @@ class Routes {
             sqlResponsesDeckbuilder.saveDeck(result);
         } catch (IOException ex) {
             ex.fillInStackTrace();
-        } catch (Exception ex){
+        } catch (Exception ex) {
             context.status(400);
         }
     }
@@ -75,12 +74,10 @@ class Routes {
         context.json(array);
     }
 
-    private void createNewGame(Context context) throws IOException, InterruptedException {
+    private void createNewGame(Context context) throws IOException {
         final String s = context.body();
         final HashMap result = new ObjectMapper().readValue(s, HashMap.class);
         gameSql.getSheep();
-
-        //gameSql.getDeck(result.get("class").toString(), result.get("deck").toString());
 
         g = new Game("player", gameSql.getDeck(result.get("class").toString(), result.get("deck").toString()), gameSql.getDeck("Mage", "MD_01"), gameSql.getSpecialCards(), result.get("class").toString());
 
@@ -92,9 +89,6 @@ class Routes {
 
     private void cardField(Context context) {
         String s = context.body();
-        /*HashMap result = new ObjectMapper().readValue(s, HashMap.class);
-
-        String id = result.get("id").toString();*/
 
         final Player currentPlayer = g.getTurn().getCurrentPlayer();
 
@@ -112,9 +106,9 @@ class Routes {
         String yourCardId = result.get("attacker").toString();
         String opponentCardId = result.get("attacked").toString();
 
-        if (yourCardId.equals("heroPower")){
-            g.getPlayerOne().heroPower(g.getPlayerTwo(),opponentCardId);
-        }else if (opponentCardId.equals("hero")) {
+        if (yourCardId.equals("heroPower")) {
+            g.getPlayerOne().heroPower(g.getPlayerTwo(), opponentCardId);
+        } else if (opponentCardId.equals("hero")) {
             g.getPlayerOne().attack(g.getPlayerTwo(), yourCardId);
         } else {
             g.getPlayerOne().attack(g.getPlayerTwo(), opponentCardId, yourCardId);

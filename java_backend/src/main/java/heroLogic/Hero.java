@@ -28,7 +28,7 @@ public class Hero {
         return fatigue;
     }
 
-    public void gainFatigue() {
+    private void gainFatigue() {
         this.fatigue = 1;
     }
 
@@ -64,7 +64,7 @@ public class Hero {
                 ((Hero) target).loseHealth(HeroPower.useFireblast());
             }
         } else if (getHeroClass().equals("Hunter")) {
-            if(target instanceof Hero){
+            if (target instanceof Hero) {
                 ((Hero) target).loseHealth(HeroPower.useSteadyshot());
             }
         }

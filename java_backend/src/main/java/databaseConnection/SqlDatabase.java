@@ -14,7 +14,7 @@ public class SqlDatabase {
 
     private final String url, user, password;
 
-    public SqlDatabase(String url, String user, String password) {
+    SqlDatabase(String url, String user, String password) {
         this.url = url;
         this.user = user;
         this.password = password;

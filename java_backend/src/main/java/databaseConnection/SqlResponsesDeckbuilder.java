@@ -1,17 +1,9 @@
 package databaseConnection;
 
 import cardLogic.Cards;
-import cardLogic.card.Card;
-import cardLogic.card.Minion;
-import cardLogic.card.Spell;
-import cardLogic.card.Weapon;
-import databaseConnection.SqlDatabase;
-import databaseConnection.SqlStatements;
 
-import javax.print.DocFlavor;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
 
@@ -20,10 +12,6 @@ public class SqlResponsesDeckbuilder extends SqlResponses {
 
     private String deckId;
     private String deckClass;
-
-    public String getDeckId() {
-        return deckId;
-    }
 
     public Cards getCards() {
         return cards;
@@ -59,12 +47,16 @@ public class SqlResponsesDeckbuilder extends SqlResponses {
             deckId += "HD_";
         }
 
-        if (selectedDeck.equals("Deck A")) {
-            deckId += "01";
-        } else if (selectedDeck.equals("Deck B")) {
-            deckId += "02";
-        } else {
-            deckId += "03";
+        switch (selectedDeck) {
+            case "Deck A":
+                deckId += "01";
+                break;
+            case "Deck B":
+                deckId += "02";
+                break;
+            default:
+                deckId += "03";
+                break;
         }
     }
 
@@ -88,9 +80,9 @@ public class SqlResponsesDeckbuilder extends SqlResponses {
             stmt.setString(1, deckId);
             for (String value : values) {
                 System.out.println(value);
-                if(value.substring(value.length()-3, value.length()).equals("_01")){
+                if (value.substring(value.length() - 3, value.length()).equals("_01")) {
                     System.out.println("removing _01");
-                    value = value.replace("_01","");
+                    value = value.replace("_01", "");
                 }
                 stmt.setString(2, value);
                 stmt.executeUpdate();
@@ -120,7 +112,7 @@ public class SqlResponsesDeckbuilder extends SqlResponses {
         return true;
     }
 
-    public void deleteDeck() {
+    private void deleteDeck() {
         try (
                 Connection connection = db.getConnection();
                 PreparedStatement stmt = connection.prepareStatement(SqlStatements.DELETE_DECK)

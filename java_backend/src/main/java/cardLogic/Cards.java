@@ -9,21 +9,8 @@ import java.util.Random;
 
 public class Cards {
     private List<Card> cards = new ArrayList<>();
-    private int deckId;
 
     public Cards() {
-    }
-
-    public Cards(String deckId) {
-
-    }
-
-    public void setDeckId(int deckId) {
-        this.deckId = deckId;
-    }
-
-    public int getDeckId() {
-        return deckId;
     }
 
     public List<Card> getCards() {
@@ -57,7 +44,7 @@ public class Cards {
 
     public Card getCard(Card card) {
         for (Card c : cards) {
-            if (c.getId().equals(card.getId())){
+            if (c.getId().equals(card.getId())) {
                 return card;
             }
         }

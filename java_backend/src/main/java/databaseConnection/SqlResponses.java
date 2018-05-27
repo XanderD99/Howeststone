@@ -44,7 +44,7 @@ public abstract class SqlResponses {
         return deck;
     }
 
-    Cards filterCard(PreparedStatement stmt, Cards cards) throws SQLException {
+    void filterCard(PreparedStatement stmt, Cards cards) throws SQLException {
         try (ResultSet rs = stmt.executeQuery()) {
             cards.clear();
             while (rs.next()) {
@@ -77,7 +77,6 @@ public abstract class SqlResponses {
                 cards.add(c);
             }
         }
-        return cards;
     }
 
     Card createMinion(String id, ResultSet rs) throws SQLException {

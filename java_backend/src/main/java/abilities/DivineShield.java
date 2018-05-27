@@ -10,11 +10,6 @@ public class DivineShield extends Ability {
         this.shield = shield;
     }
 
-    public boolean isShield() {
-        return shield;
-    }
-
-    //divine shield is continuous use while running turns
     public int useShield(int toAbsorbDamage) {
         if (shield) {
             this.shield = false;

@@ -1,9 +1,6 @@
 package abilities;
 
 import cardLogic.card.Ability;
-import cardLogic.card.Card;
-import cardLogic.card.Minion;
-import heroLogic.Hero;
 
 public class Windfury extends Ability {
     private boolean used;
@@ -14,13 +11,11 @@ public class Windfury extends Ability {
     }
 
     public void useWindfury() {
-            this.used = false;
+        this.used = false;
     }
 
 
     public boolean windfuryUsed() {
         return used;
     }
-
-
 }

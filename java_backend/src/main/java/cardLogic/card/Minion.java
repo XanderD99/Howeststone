@@ -2,7 +2,6 @@ package cardLogic.card;
 
 import abilities.*;
 import heroLogic.Hero;
-import org.jetbrains.annotations.NotNull;
 
 public class Minion extends Card {
     private int health;
@@ -11,7 +10,7 @@ public class Minion extends Card {
     private Ability ability;
     private int priority;
 
-    public Minion(String id, int manaCost, String name, String img, String playerClass, int health, int attValue, DivineShield divineShield) {
+    public Minion(String id, int manaCost, String name, String img, String playerClass, int health, int attValue) {
         super(id, manaCost, name, img, playerClass, null);
         this.health = health;
         this.attValue = attValue;
@@ -49,12 +48,12 @@ public class Minion extends Card {
         return priority;
     }
 
-    public int loseFatigue() {
-        return fatigue = 0;
+    public void loseFatigue() {
+        fatigue = 0;
     }
 
-    public int gainFatigue() {
-        return fatigue = 1;
+    public void gainFatigue() {
+        fatigue = 1;
     }
 
     private void setPriority(int priority) {
@@ -73,13 +72,11 @@ public class Minion extends Card {
         return this.health = this.health + healValue;
     }
 
-    public int gainAttValue(int attValue) {
-        return this.attValue = this.attValue + attValue;
+    public void gainAttValue(int attValue) {
+        this.attValue = this.attValue + attValue;
     }
 
-
     public void attack(Minion target) {
-        //TODO: If minion has 2 abilities make a check for that
         Ability defender = target.getAbility();
         Ability attacker = this.getAbility();
 

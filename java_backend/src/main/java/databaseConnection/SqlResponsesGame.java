@@ -2,7 +2,6 @@ package databaseConnection;
 
 import cardLogic.Cards;
 import cardLogic.card.*;
-import reusables.ReusableMethods;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -21,20 +20,7 @@ public class SqlResponsesGame extends SqlResponses {
         return deck.getCards();
     }
 
-    /*public Cards getCoin() {
-        try (
-                Connection connection = db.getConnection();
-                PreparedStatement stmt = connection.prepareStatement(SqlStatements.GET_COIN)
-        ) {
-
-            filterCard(stmt, deck);
-            System.out.println(deck);
-
-        } catch (SQLException exc) {exc.printStackTrace();}
-        return deck;
-    }*/
-
-    public Cards getSheep() {
+    public void getSheep() {
         try (
                 Connection connection = db.getConnection();
                 PreparedStatement stmt = connection.prepareStatement(SqlStatements.GET_SHEEP)
@@ -44,7 +30,7 @@ public class SqlResponsesGame extends SqlResponses {
                 specialCards.clear();
                 while (rs.next()) {
                     String cardId = rs.getString("cardId");
-                    Card c = null;
+                    Card c;
                     if (specialCards.getCardById(cardId) == null) {
                         c = createMinion(cardId, rs);
                     } else {
@@ -54,26 +40,6 @@ public class SqlResponsesGame extends SqlResponses {
                 }
             }
             System.out.println(specialCards);
-
-        } catch (SQLException exc) {
-            exc.printStackTrace();
-        }
-        return deck;
-    }
-
-    public Card getCard(String id) {
-        return deck.getCardById(id);
-    }
-
-    public void postFieldCard(String player, String cardId) {
-        try (
-                Connection connection = db.getConnection();
-                PreparedStatement stmt = connection.prepareStatement(SqlStatements.INSERT_CARD_IN_FIELD)
-        ) {
-
-            stmt.setString(1, cardId);
-            stmt.setString(2, player);
-            stmt.executeUpdate();
 
         } catch (SQLException exc) {
             exc.printStackTrace();

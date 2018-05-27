@@ -32,8 +32,8 @@ public class BoostCry extends Battlecry {
     private void boostHealthAttack(Player player) {
         Card randomCard = player.getCardsOnField().getRandomCard();
         if (player.getCardsOnField().checkListSize() > 0) {
-            ((Minion)player.getCardsOnField().getCard(randomCard)).gainHealth(amount);
-            ((Minion)player.getCardsOnField().getCard(randomCard)).gainAttValue(amount);
+            ((Minion) player.getCardsOnField().getCard(randomCard)).gainHealth(amount);
+            ((Minion) player.getCardsOnField().getCard(randomCard)).gainAttValue(amount);
         } else {
             System.err.println("no minion to boost");
         }

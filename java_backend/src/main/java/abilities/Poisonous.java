@@ -1,7 +1,6 @@
 package abilities;
 
 import cardLogic.card.Ability;
-import cardLogic.card.Minion;
 
 public class Poisonous extends Ability {
     private boolean used;
@@ -14,5 +13,4 @@ public class Poisonous extends Ability {
     public boolean isUsed() {
         return used;
     }
-
 }
