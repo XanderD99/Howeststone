@@ -17,4 +17,8 @@ public class DivineShield extends Ability {
         }
         return toAbsorbDamage;
     }
+
+    public boolean isShield() {
+        return shield;
+    }
 }
